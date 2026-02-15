@@ -1,0 +1,6 @@
+PREF="$RTEMS_BASE/7-i386"
+export RTEMS_MAKEFILE_PATH="$PREF/i386-rtems7/pc386"
+export RTEMS_CUSTOM="$PREF/make/custom"
+export RTEMS_SHARE="$PREF/make"
+export PROJECT_ROOT="$PREF"
+export ARCH="i386-rtems7"
