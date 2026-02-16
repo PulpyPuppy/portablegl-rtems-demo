@@ -24,6 +24,7 @@ Renders a triangle using PortableGL and outputs it to the RTEMS framebuffer.
 git submodule init
 git submodule update
 
+export PATH=<your_prefix>/bin:$PATH
 export RTEMS_MAKEFILE_PATH=<your_prefix>/i386-rtems7/pc386
 
 make
