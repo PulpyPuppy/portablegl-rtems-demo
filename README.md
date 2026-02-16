@@ -37,7 +37,7 @@ make
 ```
 qemu-system-i386 -m 128 -no-reboot -append \
   "--video=off --console=/dev/com1" -nographic \
-  -kernel tests/hello/o-optimize/hello.exe
+  -kernel tests/hello/build/hello.exe
 ```
 
 **hello_triangle**
@@ -45,7 +45,7 @@ qemu-system-i386 -m 128 -no-reboot -append \
 ```bash
 qemu-system-i386 -m 128 -no-reboot -no-shutdown \
   -vga std \
-  -kernel tests/hello_triangle/o-optimize/hello_triangle.exe \
+  -kernel tests/hello_triangle/build/hello_triangle.exe \
   -serial stdio \
   -append "--console=/dev/com1 --video=800x600-32"
 ```
